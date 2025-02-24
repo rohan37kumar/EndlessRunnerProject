@@ -54,14 +54,12 @@ public class GameManager : MonoBehaviour
         isGameRunning = false;
         Time.timeScale = 0f;
         
-        // Add run coins to total balance
         AddToTotalCoins(currentRunCoins);
         
-        // Update high score if necessary
         int currentHighScore = PlayerPrefs.GetInt(HIGH_SCORE_KEY, 0);
         if (currentRunCoins > currentHighScore)
         {
-            currentHighScore = currentRunCoins;  // Update the current high score
+            currentHighScore = currentRunCoins;
             PlayerPrefs.SetInt(HIGH_SCORE_KEY, currentHighScore);
             PlayerPrefs.Save();
         }

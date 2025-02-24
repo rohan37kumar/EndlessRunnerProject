@@ -45,7 +45,7 @@ public class UIManager : MonoBehaviour
 
     private void ReturnToHome()
     {
-        Time.timeScale = 1f;  // Reset time scale before loading scene
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 

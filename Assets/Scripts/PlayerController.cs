@@ -15,7 +15,6 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        // Set initial position to middle lane
         ResetPosition();
     }
 
@@ -45,7 +44,6 @@ public class PlayerController : MonoBehaviour
                 HandleSwipe(touch.position - touchStart);
             }
         }
-        // Handle mouse input for testing in editor
         else if (Input.GetMouseButtonDown(0))
         {
             touchStart = Input.mousePosition;
@@ -122,7 +120,6 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector3(lanePositions[currentLane], transform.position.y, transform.position.z);
         isMoving = false;
         
-        // Reset animation state
         if (animator != null)
         {
             animator.SetBool("playMode", false);
