@@ -1,70 +1,68 @@
 ### Game Environment Assets
 - **Terrain Textures**:
-  - Grassy Terrain: High-resolution grass textures with variations for different seasons, including wet and dry states.
-  - Sandy Terrain: Desert sand textures with dune patterns and wind-blown effects.
-  - Urban Terrain: Concrete and asphalt textures for city environments.
+  - Grassy Terrain: 5 high-resolution grass textures with variations for different seasons, including wet and dry states.
+  - Sandy Terrain: 3 desert sand textures with dune patterns and wind-blown effects.
+  - Urban Terrain: 4 concrete and asphalt textures for city environments.
 
 - **Vegetation Models**:
-  - Trees: Oak, pine, palm, and deciduous trees with seasonal variations.
-  - Bushes: Various types of bushes with different densities.
-  - Grass: Clusters of grass with different heights and densities.
-  - Flowers: Wildflowers with multiple color variations.
-  - Rocks: Small to large rock formations with moss and lichen textures.
+  - Trees: 10 models each of oak, pine, palm, and deciduous trees.
+  - Bushes: 5 types of bushes with different densities.
+  - Grass: 8 clusters of grass with different heights and densities.
+  - Rocks: 10 small to large rock formations.
 
 - **Weather Effects**:
-  - Rain: Particle effects for light and heavy rain.
-  - Snow: Particle effects for falling snow.
-  - Fog: Dynamic fog effects with adjustable density.
-  - Wind: Effects as blowing wind.
-  - Smoke: Smoke effect to block visibility, customizable size.
+  - Rain: 2 particle effects for light and heavy rain.
+  - Snow: 2 particle effects for falling snow.
+  - Fog: 3 dynamic fog effects with adjustable density.
+  - Wind: 2 effects for blowing wind.
+  - Smoke: 3 smoke effects to block visibility, customizable size.
 
 - **Military Structures**:
-  - Buildings: Modular military base buildings with interior and exterior details.
-  - Radar Towers: Detailed radar towers with rotating radar dishes.
-  - Bunkers: Reinforced concrete bunkers with interior rooms.
-  - Watchtowers: Wooden and metal watchtowers with ladders and platforms.
-  - Barricades: Sandbags, barbed wire, and concrete barriers.
-  - Hangars: Large hangars for aircraft with sliding doors.
-  - Runways: Textured runways with markings and lighting.
+  - Buildings: 5 modular military base buildings with interior and exterior details.
+  - Radar Towers: 3 detailed radar towers with rotating radar dishes.
+  - Bunkers: 4 reinforced concrete bunkers with interior rooms.
+  - Watchtowers: 3 wooden and metal watchtowers with ladders and platforms.
+  - Barricades: 5 sets of sandbags, barbed wire, and concrete barriers.
+  - Hangars: 2 large hangars for aircraft with sliding doors.
+  - Runways: 2 textured runways with markings and lighting.
 
 - **Natural Elements**:
-  - Water Bodies: Lakes, rivers, and oceans with realistic water shaders, reflections, and wave animations.
-  - Cliffs: Steep cliffs with rock textures, erosion details, and climbing animations.
-  - Caves: Interior cave models with stalactites, stalagmites, and ambient lighting.
+  - Water Bodies: 3 lakes/rivers and 1 ocean with realistic water shaders, reflections, and wave animations.
+  - Cliffs: 4 steep cliffs with rock textures, erosion details, and climbing animations.
+  - Caves: 2 interior cave models.
 
 - **Base Building Mechanics**:
-  - Construction Tiles: Grid-based tiles for base construction with snap-to-grid functionality.
+  - Construction Tiles: 20 grid-based tiles for base construction with snap-to-grid functionality.
   - Building Placement: Interactive placement system with preview and rotation options.
-  - Resource Nodes: Harvestable nodes for resources like metal, oil, and energy.
+  - Resource Nodes: 10 collectible nodes for resources like metal, oil, and wood.
 
 - **Tile-Based Troop Positioning**:
-  - Tile Highlighting: Glow effects for selected tiles indicating troop placement and movement.
-  - Path Indicators: Arrows and lines showing troop movement paths and destinations.
-
+  - Tile Highlighting: A glow effect for selected tiles indicating troop placement and movement.
+  - Path Indicators: 5 sets of arrows and lines showing troop movement paths and destinations.
 
 
 
 
 ### Character Models
 - **Dialogue Characters**:
-  - Military Generals: 3D-looking sprites with distinct uniforms and insignia.
-  - Secretaries: Professional attire with subtle animations for dialogue scenes.
-  - Assistants: Various roles with business or military attire, animated for dialogue.
+  - Military Generals: 5 3D-looking sprites with distinct uniforms and insignia.
+  - Secretaries: 3 professional attire models with subtle animations for dialogue scenes.
+  - Assistants: 4 various roles with business or military attire, animated for dialogue.
   - Dialogue Presentation: Characters appear on the side of the screen with text and audio synchronization.
 
 - **In-Game Soldiers**:
-  - Army Troops: 3D animated models with customizable gear and weapons.
-  - Tank Commanders: Distinctive uniforms with tank operation animations.
-  - Snipers: Camouflaged outfits with sniper rifle animations.
-  - Special Forces: Elite soldier models with tactical gear and stealth animations.
+  - Army Troops: 10 3D animated models with customizable gear and weapons.
+  - Tank Commanders: 3 distinctive uniforms with tank operation animations.
+  - Snipers: 3 camouflaged outfits with sniper rifle animations.
+  - Special Forces: 5 elite soldier models with tactical gear and stealth animations.
 
 - **Enemy Faction Soldiers**:
-  - Infantry: Basic enemy soldiers with varied uniforms and weapons.
-  - Elite Guards: Advanced enemy units with heavy armor and unique weapons.
-  - Commanders: Enemy leaders with distinctive appearances and animations.
-  - Mercenaries: Diverse enemy types with rugged appearances and mixed gear.
+  - Infantry: 10 basic enemy soldiers with varied uniforms and weapons.
+  - Elite Guards: 5 advanced enemy units with heavy armor and unique weapons.
+  - Commanders: 3 enemy leaders with distinctive appearances and animations.
+  - Mercenaries: 5 diverse enemy types with rugged appearances and mixed gear.
 
-- **Civilians**: Non-combatant models for realism, with casual attire and simple animations.
+- **Civilians**: 5 non-combatant models for realism, with casual attire and simple animations.
 
     [basic animations as walking running, crouch etc for all the models]
 
@@ -126,41 +124,40 @@
 
 
 ### Weapons and Equipment
-- **Firearms**:
-  - Assault Rifles: Three types with customizable components (barrels, stocks, scopes, magazines).
-    - Type 1: Standard assault rifle with balanced stats.
-    - Type 2: High-damage assault rifle with slower rate of fire.
-    - Type 3: Lightweight assault rifle with high rate of fire and lower damage.
-  
-  - Sniper Rifles: Three types with customizable components (scopes, barrels, stocks).
-    - Type 1: Bolt-action sniper rifle with high damage and range.
-    - Type 2: Semi-automatic sniper rifle with moderate damage and faster firing rate.
-    - Type 3: Lightweight sniper rifle with quick aim and reduced damage.
+- **Assault Rifles**:
+  - AK-47: 5 models with customizable components (barrels, stocks, scopes, magazines).
+  - M4A1: 5 models with customizable components (barrels, stocks, scopes, magazines).
+  - FAMAS: 5 models with customizable components (barrels, stocks, scopes, magazines).
 
-  - Submachine Guns (SMGs): Three types with customizable components (barrels, stocks, magazines).
-    - Type 1: Compact SMG with high rate of fire and low damage.
-    - Type 2: Balanced SMG with moderate damage and range.
-    - Type 3: Heavy SMG with high damage and slower rate of fire.
+- **Sniper Rifles**:
+  - Barrett M82: 3 models with customizable components (scopes, barrels, stocks).
+  - Dragunov: 3 models with customizable components (scopes, barrels, stocks).
+  - AWM: 3 models with customizable components (scopes, barrels, stocks).
 
-  - Shotguns: Three types with customizable components (barrels, stocks, magazines).
-    - Type 1: Pump-action shotgun with high damage and low rate of fire.
-    - Type 2: Semi-automatic shotgun with moderate damage and faster firing rate.
-    - Type 3: Tactical shotgun with balanced stats and quick reload.
+- **Submachine Guns (SMGs)**:
+  - MP5: 4 models with customizable components (barrels, stocks, magazines).
+  - Uzi: 4 models with customizable components (barrels, stocks, magazines).
+  - P90: 4 models with customizable components (barrels, stocks, magazines).
 
-  - Pistols: Three types with customizable components (barrels, magazines, sights).
-    - Type 1: Standard pistol with balanced stats.
-    - Type 2: High-damage pistol with slower rate of fire.
-    - Type 3: Lightweight pistol with high rate of fire and lower damage.
+- **Shotguns**:
+  - Remington 870: 3 models with customizable components (barrels, stocks, magazines).
+  - SPAS-12: 3 models with customizable components (barrels, stocks, magazines).
+  - AA-12: 3 models with customizable components (barrels, stocks, magazines).
+
+- **Pistols**:
+  - Glock 17: 3 models with customizable components (barrels, magazines, sights).
+  - Desert Eagle: 3 models with customizable components (barrels, magazines, sights).
+  - Beretta 92: 3 models with customizable components (barrels, magazines, sights).
 
 - **Explosives**:
-  - Grenades: Fragmentation, smoke, and flashbang grenades with upgradeable blast radius and effects.
-  - Mines: Anti-personnel and anti-vehicle mines with customizable trigger mechanisms.
-  - Rockets: Rocket launchers with upgradeable warheads and targeting systems.
+  - Fragmentation Grenades: 3 types with upgradeable blast radius and effects.
+  - Smoke Grenades: 3 types with upgradeable duration and coverage.
+  - Flashbang Grenades: 3 types with upgradeable intensity and radius.
 
 - **Gadgets**:
-  - Binoculars: Standard and night vision binoculars with upgradeable zoom and clarity.
-  - Night Vision Goggles: Upgradeable for range and clarity.
-  - Drones: Recon and attack drones with customizable cameras and weaponry.
+  - Binoculars: 2 types of standard and night vision binoculars with upgradeable zoom and clarity.
+  - Night Vision Goggles: 2 types, upgradeable for range and clarity.
+  - Drones: 2 types of recon and attack drones with customizable cameras and weaponry.
 
 
 
@@ -168,70 +165,60 @@
 
 ### UI Elements
 - **HUD Components**:
-  - Health Bars: Detailed sprites for player and enemy health indicators.
-  - Ammo Count: Display for current ammo and reserve ammo.
-  - Crosshairs: Various styles for different weapons.
-  - Scope Sight: Detailed scope overlays for sniper and scoped weapons.
+  - Health Bars: 3 detailed sprites for player and enemy health indicators.
+  - Ammo Count: 5 displays for current ammo and reserve ammo.
+  - Crosshairs: 3 various styles for different weapons.
+  - Scope Sight: 2 detailed scope overlays for sniper and scoped weapons.
 
 - **Menus**:
-  - Main Menu: High-resolution background and button sprites.
-  - Settings: Sliders and toggles for audio, graphics, and controls.
-  - Inventory Screens: Grid layout for items.
-  - Pause Menu: Overlay with resume, settings, and exit button sprites.
+  - Main Menu: 1 high-resolution background and button sprites.
+  - Settings: 1 set of sliders and toggles for audio, graphics, and controls.
+  - Inventory Screens: 1 grid layout for items.
+  - Pause Menu: 1 overlay with resume, settings, and exit button sprites.
 
 - **Icons**:
-  - Weapon Icons: Detailed sprites for each weapon type.
-  - Item Icons: Icons for consumables, ammo, and equipment.
-  - Skill Icons: Icons for player abilities and power-ups.
-  - Action Button Icons: Icons for interact, reload, and use actions.
+  - Weapon Icons: 10 detailed sprites for each weapon type.
+  - Item Icons: 10 icons for consumables, ammo, and equipment.
+  - Skill Icons: 10 icons for player abilities and power-ups.
+  - Action Button Icons: 5 icons for interact, reload, and use actions.
 
 - **Tutorial Elements**:
-  - Hand Gesture Sprites: Animated gestures for tutorial guidance.
-  - Arrow Markers: Directional arrows for navigation and objectives.
-
-- **Player and Profile Icons**:
-  - Profile Icons: Avatars for player profiles.
-  - Player Icons: In-game indicators for player position and status.
+  - Hand Gesture Sprites: 2 animated gestures for tutorial guidance.
+  - Arrow Markers: 4 uni-directional and bi-directional arrows for navigation and objectives.
 
 - **In-Game Controls**:
-  - Fire Button: Large button for shooting.
-  - Move Button: Joystick or directional pad for movement.
-  - Action Buttons: Context buttons for special actions.
+  - Fire Button: 1 large button for shooting.
+  - Move Button: 1 joystick or directional pad for movement.
+  - Action Buttons: 3 context buttons for special actions.
 
 - **Miscellaneous**:
-  - Notification Panels: Pop-up panels for alerts and messages.
-  - Scoreboard: Display for player scores and rankings.
-  - Timer: Countdown and stopwatch displays for timed events.
+  - Notification Panels: 5 pop-up panels for alerts and messages.
+  - Scoreboard: 1 display for player scores and rankings.
+  - Timer: 2 countdown and stopwatch displays for timed events.
 
 ### Animation Assets
-- Character Animations: Running, walking, crouching, crouch-walking, rolling, shooting, reloading, dying.
-
+- Character Animations: 8-10 animations each for running, walking, crouching, crouch-walking, rolling, shooting, reloading, dying.
 
 ### Sound and Music
-- Sound Effects: Gunfire, explosions, footsteps.
-- Dialogues: Audio files for specific dialogues in game story.
-- Ambient Sounds: Wind, water, wildlife.
-- Background Music: Theme music, battle music.
+- Sound Effects: 10 effects each for gunfire, explosions, footsteps.
+- Dialogues: 20 audio files for specific dialogues in game story.
+- Ambient Sounds: 5 effects each for wind, water, wildlife.
+- Background Music: 5 tracks for theme music, battle music.
 
 ### Special Effects
 - **Weapon Effects**:
-  - Bullet Tracers: Visual trails for bullets fired from firearms.
-  - Muzzle Flashes: Bright flashes at the barrel of guns when fired.
-  - Laser Beams: Continuous beams for laser weapons with glow effects.
-  - Missile Trails: Smoke and fire trails for launched missiles.
-  - Torpedo Trails: Water disturbance effects for torpedoes.
-  - Explosion Effects: Dynamic explosions with fire, smoke, and debris for rockets etc.
-  - Impact Effects: Sparks and debris for bullet impacts on different surfaces (metal, wood, armor/hard surfaces).
-  - Smoke Trails: Persistent smoke trails for rockets and missiles.
-  - Water Splashes: Effects for projectiles hitting water surfaces.
-  - Fire Effects: Flames and heat distortion for incendiary weapons.
+  - Bullet Tracers: Specific to each weapon type (e.g., AK-47, M4A1).
+  - Muzzle Flashes: Specific to weapon caliber and type.
+  - Laser Beams: For laser-equipped weapons.
+  - Missile Trails: For rocket launchers, varying by missile type.
+  - Explosion Effects: Tailored to explosive type (e.g., grenades, rockets).
+  - Impact Effects: Specific to bullet impacts on different surfaces (metal, wood, armor/hard surfaces).
 
 - **Particle Effects**:
-  - Smoke: Dense and light smoke effects for various scenarios.
-  - Fire: Realistic fire effects for explosions and burning objects.
-
+  - Smoke: 5 dense and light smoke effects for various scenarios.
+  - Fire: 5 realistic fire effects for explosions and burning objects.
 
 ### Miscellaneous
-- Collectibles: Ammo packs, health kits, power-ups.
-- Interactive Objects: Doors, switches, levers.
-- Skyboxes: Atleast two, one for day and one for night. Different types of skyboxes for different weather preferrable.
+- Collectibles: 10 each of ammo packs, health kits, power-ups.
+- Interactive Objects: 10 each of doors, switches, levers.
+- Skyboxes: 2 skyboxes, one for day and one for night, with different types for different weather.
